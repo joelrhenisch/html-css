@@ -3,32 +3,34 @@
 }
 
 .box{
+    border: 1px solid grey;
+    width: 800px;
+    padding: 30px;
+    display: flex;
+}
+
+.control.has-addon{
+    width: 300px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.control-field{
+    flex: 1;
+}
+
+.control-addon{
     background-color: lightgrey;
-    color: black;
-    border: black;
-    padding: 5px;
-    font-size: 12px;
+    border: 1px solid grey;
     border-radius: 2px;
+    font-size: 12px;
+    padding: 5px;
 }
 
-.title{
+h1{
     font-size: 16px;
-    color: dimgrey;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: row;
-}
-
-.text {
-    width: 50%;
-}
-
-.amount{
-    border: solid lightgrey 0.5px;
-}
-
-.box-left{
-    display: flex;
+.side{
+    width: 350px;
 }

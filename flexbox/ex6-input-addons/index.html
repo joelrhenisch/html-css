@@ -7,34 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/d9028bc164.js"></script>
 </head>
 <body>
 
-<div class="wrapper">
+<div class="box">
+    <div class="side">
 
-    <div class="box-left">
-
-        <h1 class="title">Add-on Prepended</h1>
-        <div class="box-amount">
-             <span class="box">Amount</span>
-             <input class="amount" type="text">
+        <h1>Add-on Prepended</h1><br>
+        <div class="control has-addon">
+            <span class="control-addon">Amount</span>
+            <input type="text" class="control-field">
         </div>
 
-        <br>
+        <div class="control has-addon">
+        <span class="control-addon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </span>
+            <input type="text" class="control-field">
+        </div>
 
-        <span class="box">O</span><input class="search" type="text">
     </div>
 
-    <div class="box-right">
-        <h1 class="title">Add-on Appended</h1>
-        <span class="box"></span><input type="text">
-        <input type="text"> <span class="box">*</span>
+    <div class="side">
+        <h1>Add-on Appended</h1>
+        <div class="control has-addon">
+            <span class="control-addon"> </span>
+            <input type="text" class="control-field">
+            <br>
+            <span class="control-addon"></span>
+            <input type="text" class="control-field">
+        </div>
     </div>
-
 </div>
+
 <br>
 <br>
 <img src="links/append.PNG" width="621">
-
 </body>
 </html>
