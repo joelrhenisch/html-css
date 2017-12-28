@@ -1,0 +1,18 @@
+.wrapper{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box{
+    background-color: blanchedalmond;
+    color: black;
+    padding: 7px;
+    height: 210px;
+    width: 300px;
+}

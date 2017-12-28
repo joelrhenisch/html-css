@@ -1,0 +1,28 @@
+.meinDiv{
+    position: absolute;
+    transition-property: background-color, color;
+    transition-delay: 0;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    /* obiges kann auch abgekürzt werden -> transition all 1s 1s */
+
+    background-color: #1d4b8f;
+    color: #999999;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+}
+
+.test{
+    background-color: #7d0000;
+    color: #999999;
+}
+
+
+
+/*transition-property: left, transform;
+transition-delay: 0s, 1.5s;
+transition-duration: 1.5s;
+transition-timing-function: ease-in-out;
+background-color: green; */

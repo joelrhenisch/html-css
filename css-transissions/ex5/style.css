@@ -1,0 +1,35 @@
+div {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    position: absolute;
+
+    animation-name: freitagAbend;
+    animation-delay: 2s;
+    animation-duration: 5s;
+}
+
+
+@keyframes freitagAbend {
+    from {
+        left: 0;
+        top: 0;
+    }
+
+    10%{
+        left: 250px;
+        top: -10px;
+    }
+
+    33%{
+        left: 10px;
+        top: 100px;
+    }
+
+
+    to {
+        left: 100px;
+        top: 200px;
+    }
+
+}

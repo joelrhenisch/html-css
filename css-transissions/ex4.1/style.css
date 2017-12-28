@@ -1,0 +1,42 @@
+.move{
+    position: absolute;
+    transition-property: background-color, color;
+    transition-delay: 0;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    /* obiges kann auch abgekürzt werden -> transition all 1s 1s */
+
+    background-color: #1d4b8f;
+    color: #999999;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    left: 0;
+    top: 0;
+
+    transition: left 0.5s ease-in-out,
+    top 0.5s ease-in-out,
+    transform 1s ease-in-out;
+
+}
+
+.move:hover{
+    background-color: #7d0000;
+    color: #999999;
+    left: 100px;
+    top: 100px;
+    transform: rotate(123deg);
+
+    transition: left 0.5s ease-in-out,
+                top 0.5s ease-in-out 0.5s,
+                transform 1s ease-in-out 1s;
+}
+
+
+
+/*transition-property: left, transform;
+transition-delay: 0s, 1.5s;
+transition-duration: 1.5s;
+transition-timing-function: ease-in-out;
+background-color: green; */
