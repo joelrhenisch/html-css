@@ -1,0 +1,29 @@
+.grid{
+    width: 800px;
+    display: flex;
+}
+
+.grid-cell{
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.c1of2{
+    flex: 50%;
+  }
+
+.c1of3{
+    flex: 33%;
+ }
+
+.c1of4{
+    flex: 25%
+}
+
+.textbox{
+    flex: 50%
+}
