@@ -1,4 +1,4 @@
-.meinDiv{
+﻿.meinDiv{
     position: absolute;
     transition-property: background-color, color;
     transition-delay: 0;
@@ -20,9 +20,3 @@
 }
 
 
-
-/*transition-property: left, transform;
-transition-delay: 0s, 1.5s;
-transition-duration: 1.5s;
-transition-timing-function: ease-in-out;
-background-color: green; */
